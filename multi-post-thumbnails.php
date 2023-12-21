@@ -28,6 +28,11 @@ Author URI: http://iamzed.com/
 if (!class_exists('MultiPostThumbnails')) {
 
 	class MultiPostThumbnails {
+		protected $label;
+		protected $id;
+		protected string $post_type = 'post';
+		protected string $priority = 'low';
+		protected string $context = 'side';
 
 		/**
 		 * Records if the scripts and styles have been enqueued so that we only
@@ -40,7 +45,7 @@ if (!class_exists('MultiPostThumbnails')) {
 		public function __construct($args = array()) {
 			$this->register($args);
 		}
-
+		
 		/**
 		 * Register a new post thumbnail.
 		 *
