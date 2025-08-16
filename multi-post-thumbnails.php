@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Multiple Post Thumbnails
-Plugin URI: http://wordpress.org/extend/plugins/multiple-post-thumbnails/
+Plugin URI: https://github.com/TenaciousIngenuity/multi-post-thumbnails/
+Tested up to: 6.8
 Description: Adds the ability to add multiple post thumbnails to a post type.
 Version: 1.8
 Author: NABR, Chris Scott
-Author URI: http://iamzed.com/
 */
 
 /*  Copyright 2010 Chris Scott (chris@iamzed.com)

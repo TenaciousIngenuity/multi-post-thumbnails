@@ -2,8 +2,8 @@
 Contributors: chrisscott, voceplatforms
 Tags: thumbnails, image, featured image
 Requires at least: 2.9.2
-Tested up to: 6.4
-Stable tag: 1.7
+Tested up to: 6.8
+Stable tag: 1.8
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -34,6 +34,10 @@ See Frequently Asked Questions at https://github.com/voceconnect/multi-post-thum
 After version 1.3, releases were tracked in github: https://github.com/voceconnect/multi-post-thumbnails/releases
 
 Historical releases are below:
+
+= 1.8 =
+
+* Fix deprecation notice of dynamic properties
 
 = 1.3 =
 
